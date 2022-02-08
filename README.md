@@ -13,13 +13,24 @@ With the board ready for programming in MicroPython (if in doubt, see chapter 1.
 2. Run the file 'all_in_one_example.py' from Thonny (or any other IDE) or copy this file to your board with the name 'main.py', which will make the file start running as soon as the board is powered up, without depending of IDEs.
 
 ## What topics does it contain?
+* ADC
+* PWM
+* Digital I/O
+* Interrupts
+* Timer
+* Execution time measure
+* Multicore
+* UART with Pico itself
+* I2C with a LCD Display
+* SPI with a SD Card
 
 ## What topics does it not contain?
+* PIO (for now)
 
 ## What hardware is used?
 Adaptations can be made and you can test just what you have, the way you prefer.
 However, the code was tested on the following circuit:
-![HW Project wiring](HW_Project\All_in_one_example_wiring_bb.png)
+![HW Project wiring](HW_Project/All_in_one_example_wiring_bb.png)
 
 PS: it is possible to minimize the use of components covering exactly the same topics, for example:
 * Not using an SD card module, but soldering pins to a MicroSD adapter and connecting directly to the breadboard. No software changes required.
